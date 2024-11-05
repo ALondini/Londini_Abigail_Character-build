@@ -29,7 +29,7 @@ header {
 
 #character-nav {
     background-color: #675050;
-    background-image: url(../images/night-and-light-fury-how-to-train-your-dragon-the-hidden-world-w6gyb9ytxrrg4xks.jpg);
+    background-image: url(../images/Banner2.jpg);
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -40,25 +40,31 @@ header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 0;
 }
 
 #character-nav ul li {
     height: 220px;
     margin: 10px 8px;
     /*top, botttom, left right*/
-    background-color: black;
+    background-color: #920c02;
     box-shadow: 0 155px 0 0 yellow inset;
     transition: box-shadow 0.2s ease-in-out;
 }
 
 #character-nav ul li:hover {
-    box-shadow: 0 220px 0 0 #920c02 inset;
+    box-shadow: 0 220px 0 0 yellow inset;
 }
 
 #character-nav ul li h2 {
     color: white;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
+    transition: color 0.2s ease-in-out;
+}
+
+#character-nav ul li:hover h2 {
+    color: black;
 }
 
 #character-nav ul li a {
@@ -71,23 +77,23 @@ header {
     background-image: url(../images/HowtoTrainYourDragonSprites.jpg);
 }
 
-#carol {
+#toothless {
     background-position: -150px 0;
 }
 
-#clint {
+#light_fury {
     background-position: -300px 0;
 }
 
-#hulk {
+#night_lights {
     background-position: -450px 0;
 }
 
-#thor {
+#stormfly {
     background-position: -600px 0;
 }
 
-#widow {
+#astrid {
     background-position: -750px 0;
 }
 
@@ -112,42 +118,36 @@ header {
 }
 
 footer {
-    padding: 20px 0;
+    padding: 10px 0;
+    height: auto;
+    font-size: 0.9em;
     text-align: center;
     background-color: rgb(40, 37, 37);
-    height: 80px;
     position: sticky;
     top: 100%;
 }
 
 
-/* all light boxes get these rules, that's why cap appears for all of them */
+.lightbox:target {
+    display: block;
+}
 
-/* Lightbox is set to display none, hidden for now */
 .lightbox {
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .85);
-    background-image: url(../images/Toothless_background.webp);
+    background-image: url(../images/Hiccup_background.webp);
+    background-size: 200px;
     background-repeat: no-repeat;
-    background-size: 55vh;
-    background-position: 40px bottom;
+    background-position: 17% center;
+    background-color: rgba(0, 0, 0, .85);
     display: none;
     text-align: right;
 }
 
-/* we overwrite cap using specific ids */
 #lightbox2 {
-<<<<<<< Updated upstream
-    background-image: url(../images/carol.jpeg);
-}
-
-#lightbox3 {
-    background-image: url(../images/clint.jpeg);
-=======
     background-image: url(../images/Toothless_background.webp);
     background-size: 500px;
     background-position: 12% center;
@@ -159,23 +159,23 @@ footer {
     background-position: 12% center;
 }
 
+
 #lightbox4 {
     background-image: url(../images/Night_Lights_background.webp);
     background-size: 500px;
-    background-position: 12% center;
->>>>>>> Stashed changes
+    background-position: 5% center;
 }
 
 #lightbox5 {
-    background-image: url(../images/Thor_LB_Bg.png);
+    background-image: url(../images/Stormfly_background.webp);
+    background-size: 550px;
+    background-position: 2% center;
 }
 
-/* target allows us to show content based on the url
-e.g. #lightbox, #lightbox2, #lightbox3  */
-
-/* selecor would be .lightbox#lightbox2, .lightbox#lightbox3  */
-.lightbox:target {
-    display: block;
+#lightbox6 {
+    background-image: url(../images/Astrid_background.webp);
+    background-size: 270px;
+    background-position: 14% center;
 }
 
 .lightbox_close {
