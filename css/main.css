@@ -141,11 +141,29 @@ footer {
 
 /* we overwrite cap using specific ids */
 #lightbox2 {
+<<<<<<< Updated upstream
     background-image: url(../images/carol.jpeg);
 }
 
 #lightbox3 {
     background-image: url(../images/clint.jpeg);
+=======
+    background-image: url(../images/Toothless_background.webp);
+    background-size: 500px;
+    background-position: 12% center;
+}
+
+#lightbox3 {
+    background-image: url(../images/LightFury_background.webp);
+    background-size: 500px;
+    background-position: 12% center;
+}
+
+#lightbox4 {
+    background-image: url(../images/Night_Lights_background.webp);
+    background-size: 500px;
+    background-position: 12% center;
+>>>>>>> Stashed changes
 }
 
 #lightbox5 {
@@ -160,7 +178,7 @@ e.g. #lightbox, #lightbox2, #lightbox3  */
     display: block;
 }
 
-.lightbox-close {
+.lightbox_close {
     color: white;
     font-size: 3em;
     text-decoration: none;
@@ -169,7 +187,7 @@ e.g. #lightbox, #lightbox2, #lightbox3  */
     margin-top: 20px;
 }
 
-.lightbox-close:hover {
+.lightbox_close:hover {
     opacity: 0.5;
     color: red;
 }
