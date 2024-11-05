@@ -2,7 +2,6 @@
     display: none;
 }
 
-/* when you have minimal content, but want full height */
 html,
 body {
     height: 100%;
@@ -17,7 +16,7 @@ body {
 }
 
 header {
-    background-color: red;
+    background-color: yellow;
     padding: 10px 0;
 }
 
@@ -25,12 +24,12 @@ header {
     width: 300px;
     margin: 0 auto;
     display: block;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .1);
 }
 
 #character-nav {
     background-color: #675050;
-    background-image: url(../images/characters_art_mas_mob_01.jpeg);
+    background-image: url(../images/night-and-light-fury-how-to-train-your-dragon-the-hidden-world-w6gyb9ytxrrg4xks.jpg);
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -48,12 +47,12 @@ header {
     margin: 10px 8px;
     /*top, botttom, left right*/
     background-color: black;
-    box-shadow: 0 155px 0 0 rgb(255, 0, 0) inset;
+    box-shadow: 0 155px 0 0 yellow inset;
     transition: box-shadow 0.2s ease-in-out;
 }
 
 #character-nav ul li:hover {
-    box-shadow: 0 220px 0 0 rgb(255, 0, 0) inset;
+    box-shadow: 0 220px 0 0 #920c02 inset;
 }
 
 #character-nav ul li h2 {
@@ -69,7 +68,7 @@ header {
 .sprite {
     width: 150px;
     height: 150px;
-    background-image: url(../images/marvelSprites.jpg);
+    background-image: url(../images/HowtoTrainYourDragonSprites.jpg);
 }
 
 #carol {
