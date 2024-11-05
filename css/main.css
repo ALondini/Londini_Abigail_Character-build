@@ -29,7 +29,7 @@ header {
 
 #character-nav {
     background-color: #675050;
-    background-image: url(../images/night-and-light-fury-how-to-train-your-dragon-the-hidden-world-w6gyb9ytxrrg4xks.jpg);
+    background-image: url(../images/Banner2.jpg);
     background-size: cover;
     background-blend-mode: multiply;
 }
@@ -71,23 +71,23 @@ header {
     background-image: url(../images/HowtoTrainYourDragonSprites.jpg);
 }
 
-#carol {
+#toothless {
     background-position: -150px 0;
 }
 
-#clint {
+#light_fury {
     background-position: -300px 0;
 }
 
-#hulk {
+#night_lights {
     background-position: -450px 0;
 }
 
-#thor {
+#stormfly {
     background-position: -600px 0;
 }
 
-#widow {
+#astrid {
     background-position: -750px 0;
 }
 
