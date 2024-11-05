@@ -128,31 +128,49 @@ footer {
 }
 
 
-/* all light boxes get these rules, that's why cap appears for all of them */
+.lightbox:target {
+    display: block;
+}
 
-/* Lightbox is set to display none, hidden for now */
 .lightbox {
     width: 100vw;
     height: 100vh;
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, .85);
     background-image: url(../images/Hiccup_background.webp);
+    background-size: 200px;
     background-repeat: no-repeat;
-    background-size: 55vh;
-    background-position: 40px bottom;
+    background-position: 17% center;
+    background-color: rgba(0, 0, 0, .85);
     display: none;
     text-align: right;
 }
 
+#lightbox2 {
+    background-image: url(../images/Toothless_background.webp);
+}
 
-/* target allows us to show content based on the url
-e.g. #lightbox, #lightbox2, #lightbox3  */
+#lightbox3 {
+    background-image: url(../images/LightFury_background.webp);
+}
 
-/* selecor would be .lightbox#lightbox2, .lightbox#lightbox3  */
-.lightbox:target {
-    display: block;
+#lightbox4 {
+    background-image: url(../images/Night_Lights_background.webp);
+    background-size: 500px;
+    background-position: 5% center;
+}
+
+#lightbox5 {
+    background-image: url(../images/Stormfly_background.webp);
+    background-size: 550px;
+    background-position: 2% center;
+}
+
+#lightbox6 {
+    background-image: url(../images/Astrid_background.webp);
+    background-size: 270px;
+    background-position: 14% center;
 }
 
 .lightbox-close {
