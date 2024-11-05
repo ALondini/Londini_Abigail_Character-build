@@ -148,15 +148,15 @@ footer {
 }
 
 #lightbox2 {
-    background-image: url(../images/Toothless_background.webp);
-    background-size: 500px;
-    background-position: 12% center;
+    background-image: url(../images/Toothless_background.png);
+    background-size: 550px;
+    background-position: 10% center;
 }
 
 #lightbox3 {
-    background-image: url(../images/LightFury_background.webp);
-    background-size: 500px;
-    background-position: 12% center;
+    background-image: url(../images/Light_Fury_background.webp);
+    background-size: 550px;
+    background-position: 10% center;
 }
 
 
